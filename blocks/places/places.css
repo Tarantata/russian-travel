@@ -1,0 +1,30 @@
+.places {
+  max-width: 984px;
+  width: 100%;
+  padding: 0;
+  color: #ffffff;
+  display: grid;
+  gap: 80px;
+  box-sizing: border-box;
+  font-family: 'inter', Arial, sans-serif;
+}
+
+@media screen and (max-width: 1140px) {
+  .places {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .places {
+    max-width: 720px;
+    gap: 74px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .places {
+    max-width: 320px;
+    gap: 50px;
+  }
+}
